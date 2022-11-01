@@ -1,3 +1,66 @@
-h1 {
-    color: red;
-}
+:root {
+    --primary-color: #874c62;
+    --secondary-color: #c98474;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+
+  h2 {
+    color: #952323;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    gap: 1em;
+  }
+
+  .card-image {
+    width: 50%;
+  }
+
+  .card-content {
+    width: 50%;
+  }
+  
+  /*
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container2 {
+    width: 100%;
+    margin: 0 auto;
+    gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #F8ECD6;
+  }
+
+ 
+
+  .content {
+    max-width: 500px;
+    padding-left: 30px;
+  }
+  
+ 
+  */
+  
