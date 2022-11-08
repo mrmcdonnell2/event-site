@@ -21,6 +21,21 @@
     align-items: center;
   }
 
+  header {
+    height: 150px;
+    background: #952323;
+  }
+
+  .hero {
+    background: #F8ECD6;
+    width: 100%;
+  }
+
+  .color {
+    background: #F8ECD6;
+    width: 100%;
+  }
+
   .card {
     display: flex;
     gap: 1em;
@@ -28,12 +43,17 @@
 
   .card-image {
     width: 50%;
-    background: #856;
+    padding: 1.5em;
   }
 
   .card-content {
     width: 50%;
-    background: #983;
+    padding: 1.5em;
+  }
+
+  footer {
+    background: #952323;
+    height: 250px;
   }
   
   /*
